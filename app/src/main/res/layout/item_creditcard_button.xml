@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="45dp"
+            android:text=" * Type "
+            android:textColor="@color/colorYellow"/>
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            style="@style/button"
+            android:checked="true"
+            android:text="Master"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            style="@style/button"
+            android:checked="false"
+            android:text="Visa"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            style="@style/button"
+            android:checked="false"
+            android:text="AmEx"/>
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+
+</LinearLayout>
